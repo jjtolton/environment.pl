@@ -10,7 +10,7 @@ Add to your `scryer-manifest.pl`:
 
 ```prolog
 dependencies([
-    dependency("environment.pl", git("https://github.com/YOUR_USERNAME/environment.pl.git"))
+    dependency("environment.pl", git("https://github.com/jjtolton/environment.pl.git"))
 ]).
 ```
 

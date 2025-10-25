@@ -93,7 +93,7 @@ Total: 28 files
 1. Add to your `scryer-manifest.pl`:
 ```prolog
 dependencies([
-    dependency("environment.pl", git("https://github.com/YOUR_USERNAME/environment.pl.git"))
+    dependency("environment.pl", git("https://github.com/jjtolton/environment.pl.git"))
 ]).
 ```
 
@@ -121,7 +121,7 @@ Copy `environment.pl` to your project directory and use relative path:
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/environment.pl.git
+git clone https://github.com/jjtolton/environment.pl.git
 cd environment
 
 # Setup direnv (optional but recommended)
@@ -228,7 +228,7 @@ git push origin v0.1.0
 
 ### 3. Update Documentation
 
-Replace `YOUR_USERNAME` with your actual GitHub username in:
+Replace `jjtolton` with your actual GitHub username in:
 - README.md
 - QUICKSTART.md
 - SETUP.md
@@ -238,7 +238,7 @@ Replace `YOUR_USERNAME` with your actual GitHub username in:
 Users can now install with:
 ```prolog
 dependencies([
-    dependency("environment.pl", git("https://github.com/YOUR_USERNAME/environment.pl.git"))
+    dependency("environment.pl", git("https://github.com/jjtolton/environment.pl.git"))
 ]).
 ```
 

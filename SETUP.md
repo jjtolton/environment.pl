@@ -7,7 +7,7 @@
 1. Add to your `scryer-manifest.pl`:
 ```prolog
 dependencies([
-    dependency("environment.pl", git("https://github.com/YOUR_USERNAME/environment.pl.git"))
+    dependency("environment.pl", git("https://github.com/jjtolton/environment.pl.git"))
 ]).
 ```
 
@@ -30,7 +30,7 @@ Copy `environment.pl` to your project or Scryer library path.
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/environment.pl.git
+git clone https://github.com/jjtolton/environment.pl.git
 cd environment
 ```
 
@@ -173,7 +173,7 @@ git push -u origin main
 
 ### 2. Update README
 
-Replace `YOUR_USERNAME` with your GitHub username in:
+Replace `jjtolton` with your GitHub username in:
 - README.md
 - QUICKSTART.md
 - SETUP.md

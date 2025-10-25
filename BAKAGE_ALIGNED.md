@@ -82,7 +82,7 @@ In your project's `scryer-manifest.pl`:
 
 ```prolog
 dependencies([
-    dependency("environment.pl", git("https://github.com/YOUR_USERNAME/environment.pl.git"))
+    dependency("environment.pl", git("https://github.com/jjtolton/environment.pl.git"))
 ]).
 ```
 
@@ -149,7 +149,7 @@ The package is now:
 ## Next Steps
 
 1. Create GitHub repository
-2. Update YOUR_USERNAME in docs
+2. Update jjtolton in docs
 3. Push to GitHub
 4. Tag v0.1.0 release
 5. Users can install via Bakage!
